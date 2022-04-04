@@ -1,0 +1,40 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.product-update{
+    padding: 170px 50px 0px 200px;
+    text-align: left;
+}
+.product-update h1{
+    font-size: 70px;
+}
+.product-update span{
+    color: rgb(67, 26, 218);
+}
+.product-update p{
+    font-size: 20px;
+    color: rgb(141, 141, 141);
+    text-align: left;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+.product-update button{
+    color: rgb(66, 66, 66);
+    background-color: rgb(227, 227, 255);
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 19px 35px 19px 35px;
+    margin-left: 12px;
+    margin-top: 70px;
+}
+.product-update button:hover{
+    background-color: rgb(170, 170, 236);
+}
+.img-container img{
+    height: 800px;
+    width: 600px;
+    padding: 70px;
+}
