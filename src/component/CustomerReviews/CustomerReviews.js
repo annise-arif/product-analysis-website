@@ -16,7 +16,7 @@ const data = [
     },
     {
         "name": "rasel khondokar",
-        "comment": "Whether you need to take calls or block out distracting noise, these headphones and headsets are ideal audio",
+        "comment": "Whether you need to take calls or block out distracting noise,",
         "rating": "4.8"
     },
     {
@@ -41,7 +41,7 @@ const CustomerReviews = () => {
         <div>
             <div className="review">
                 {
-                    data.map(d => <Review data={d}></Review>)
+                    data.slice(0, 3).map(d => <Review data={d}></Review>)
                 }
             </div>  
         </div>
