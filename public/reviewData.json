@@ -1,13 +1,8 @@
-import React, { useContext } from 'react';
-import './CustomerReviews.css';
-import Review from '../Review/Review';
-
-
-const data = [
+[
     {
         "name": "Kashem",
         "comment": "Accurate audio takes precedence over noise cancellation",
-        "rating": "4.7"
+        "rating": "3.9"
     },
     {
         "name": "sajjad hossain",
@@ -27,25 +22,16 @@ const data = [
     {
         "name": "somaya",
         "comment": "Custom-molded earphones you shape yourself—no audiologist required",
-        "rating": "4.5"
+        "rating": "4.6"
     },
     {
         "name": "mariya",
         "comment": "These customizable kids' headphones need better volume control",
-        "rating": "4.9"
+        "rating": "4.3"
     },
-];
-
-const CustomerReviews = () => {
-    return (
-        <div>
-            <div className="review">
-                {
-                    data.map(d => <Review data={d}></Review>)
-                }
-            </div>  
-        </div>
-    );
-};
-
-export default CustomerReviews;
+    {
+        "name": "maruf",
+        "comment": "Whether you want the coolest true wireless in-ears for the gym or the most sophisticated noise-canceling headphones for travel,",
+        "rating": "3.9"
+    }
+]

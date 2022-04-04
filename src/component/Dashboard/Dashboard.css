@@ -1,0 +1,16 @@
+.chart{
+    display: flex;
+    margin-left: 50px;
+    padding: 10px;
+}
+.bar-chart{
+    margin-left: 50px;
+}
+.line-chart h3{
+    color: rgb(71, 71, 231);
+    padding: 20px;
+}
+.bar-chart h3{
+    color: rgb(71, 71, 231);
+    padding: 20px;
+}

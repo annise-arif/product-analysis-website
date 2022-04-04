@@ -11,11 +11,11 @@ const Home = () => {
                     <span>Your best Headphone</span>
                     </h1>
                     <p>
-                    The best headphones deliver the very best value for your
-                    money — but that doesn't mean these are all budget buys.
-                    While we have included some of our favorite headphone bargains,
-                    sometimes the best headphones listed here are based on an 
-                    outstanding feature set,
+                        The best headphones deliver the very best value for your
+                        money — but that doesn't mean these are all budget buys.
+                        While we have included some of our favorite headphone bargains,
+                        sometimes the best headphones listed here are based on an 
+                        outstanding feature set,
                     </p>
                     <button>Live demo</button>
                 </div>
@@ -27,7 +27,9 @@ const Home = () => {
            {/* customer review section */}
 
            <div className="customer-reviews">
+              <h2>Customer Reviews</h2>
               <CustomerReviews></CustomerReviews>
+              <button className='review-btn'>See All Reviews</button>
            </div>
 
         </div>

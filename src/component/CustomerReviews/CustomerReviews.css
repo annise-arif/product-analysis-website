@@ -1,0 +1,19 @@
+.review-btn{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(68, 68, 224);
+    margin-bottom: 150px;
+    margin-top: 70px;
+    padding: 4px 90px 4px 90px;
+    border: none;
+    border-radius: 6px;
+}
+.review-btn:hover{
+    color: brown;
+}
+.review{
+    text-align: left;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
