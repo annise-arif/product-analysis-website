@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import CustomerReviews from '../CustomerReviews/CustomerReviews';
 import './Home.css';
 
@@ -30,7 +31,7 @@ const Home = () => {
            <div className="customer-reviews">
               <h2>Customer Reviews</h2>
               <CustomerReviews></CustomerReviews>
-              <button onClick={handleReviews} className='review-btn'>See All Reviews</button>
+              <button className='review-btn'>See All Reviews</button>
            </div>
 
         </div>
