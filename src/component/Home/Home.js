@@ -3,6 +3,7 @@ import CustomerReviews from '../CustomerReviews/CustomerReviews';
 import './Home.css';
 
 const Home = () => {
+    
     return (
         <div className='main-container'>
             <div className='home-container'>
@@ -29,7 +30,7 @@ const Home = () => {
            <div className="customer-reviews">
               <h2>Customer Reviews</h2>
               <CustomerReviews></CustomerReviews>
-              <button className='review-btn'>See All Reviews</button>
+              <button onClick={handleReviews} className='review-btn'>See All Reviews</button>
            </div>
 
         </div>

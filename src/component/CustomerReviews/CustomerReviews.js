@@ -41,7 +41,7 @@ const CustomerReviews = () => {
         <div>
             <div className="review">
                 {
-                    data.slice(0, 3).map(d => <Review data={d}></Review>)
+                    data.map(d => <Review data={d}></Review>)
                 }
             </div>  
         </div>
